@@ -1,0 +1,173 @@
+>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer sitio web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mi primera pagina web </h1> 
+    </header>
+    <button><h6>Bienvenidos</h6></button> 
+
+
+     <h1>Informacion Personal</h1>
+
+        <p>Hola soy Leonardo Matinez, soy de Santa Marta, tengo 32 años, me gradue como antropologo,
+            <br> en el año 2022 culmine mi carrera profesional, en el 2024 trabaje como asistente de investigacion <br> para
+            un proyecto de control de plagas en los distintos destinos turisticos de Santa Marta. </p> <br>
+   
+    
+
+     
+    
+   
+        
+     
+     <h2>Mi imagen</h2>
+     <p>En esta secciòn podran ver mis redes sociales, donde muestro mi aficion por los paisajes y la fotografia sobre todo
+            en instagram</p>
+
+        <img src="foto.jpg.JPG" class="imagen"> <br><br>
+
+        <a href="https://www.facebook.com/profile.php?id=100053170792620"> Facebook</a> <br>
+        <a href="https://www.instagram.com/antropofago_92/">Instagram</a>
+        
+
+    </section>
+    <!-- listas ordenadas y desordenas -->
+
+    <section>
+        <h2>Hobbys</h2>
+        
+        <ul>
+            <li>Ver peliculas</li>
+            <li>Hacer senderismo</li>
+            <li>Leer</li>
+            <li>Escribir</li>
+            <li>Dar paseos en bici</li>
+
+        </ul>:
+    </section>
+    <hr>
+    <section>
+        <h2>Tareas Priorizadas</h2>
+        <ol>
+            <li>Arreglar casa</li>
+            <li>Cepillarme los dientes</li>
+            <li>Revisar el correo electronico</li>
+            <li>Ir a la clase de programacion</li>
+              <li>Buscar Empleo</li>
+        </ol>
+         
+        
+    </section>
+    <section>
+        
+        
+        <table>
+            <!--tabla de mis actividades matutinas-->
+            <caption>
+            <h2>Tabla de Horarios Semanal</h2>
+                </caption>
+            <thead> 
+                <tbody>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miercoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                    <th>Sabado</th>
+                    <th>Domingo</th>
+                   
+                </tr>
+            </thead>
+            <tr>
+                <td>7:00AM</td>
+                <td>Meditacion</td>
+                <td>Lectura</td>
+                <td>Escribir</td>
+                <td>Revisar Correos</td>
+                <td>Desayunar</td>
+                <td>Tomar suplementos</td> <hr>
+                <td>Me baño</td>
+                
+            </tr>
+            <tr>
+               
+                <td>9:00 AM</td>
+                <td>Arreglar casa</td>
+                <td>Ir al supermercado</td>
+                <td>Actividad fisica</td>
+                <td>Volver a leer</td>
+                <td>Repasar</td>
+                <td>Ejercicio</td>
+                <td>Desayuno</td>
+            
+
+            </tr>
+            <tr>
+                <td>2:30PM</td>
+                <td>Ir a clases</td>
+                <td>Ejercicios de clases</td>
+                <td>Asistir a clases</td>
+                <td>Estar en clases</td>
+                <td>Asisto a clases</td>
+                <td>Tomo un paseo</td>
+                <td>Veo una pelicula</td>
+            </tr>
+            <tr>
+                
+                <td>5:30PM</td>
+                <td>Salgo de clases</td>
+                <td>Conduciendo mi bici</td>
+                <td>Llego a mi casa </td>
+                <td>Cenar</td>
+                <td>Me baño y duermo</td>
+                <td>Busco empleo</td>
+                <td>Voy a ver el atardecer</td>
+                 
+                 </tbody>
+                
+            </tr>
+
+        </table>
+    </section>
+  
+   <!--formulario de contacto -->
+    
+    <section>
+        <h2>Formulario de Contacto</h2>
+        <form  onsubmit="return validarFormulario()">
+            <label>Nombre</label>
+            <input type="text" id="nombre" name="nombre" required
+            <label>Correo electronico</label>
+            <input type="email" id="email" name="email" required
+            <label>Motivo de Contacto</label>
+            <input type="motivo" id="motivo" name="motivo" required <br>
+
+            <button>Enviar</button>
+            
+            
+           
+            
+            
+           
+       </form>
+    </section>
+    
+    <script src="app.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+
+header{
+    background-color:cadetblue;
+    text-align: center;
+    padding: 20px;
+    color: cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+body{
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif
+    
+    
+    
+    }
+    tbody{
+    background-color:cadetblue;
+    font-family: Arial, Helvetica, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:darkblue;
+    margin: 10px;
+    border-block-end-color: silver;
+    box-shadow: 0 0 15px rgb(0,0,0,0.2);
+
+    }
+
+.imagen{
+    border: 300px;
+    width: 200px;
+   box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+
+
+}
+form{
+    background-color: ·#ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,00.1);
+    max-width: 200px;
+    margin: 10px auto;
+    
+
+}
+ul{
+
+    margin: 10px;
+    padding: 10px;
+    color: darkblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size-adjust: 10px;
+
+}
+ol{
+    margin: 10px;
+    padding:10px;
+    color: darkblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size-adjust: 10px;
+
+}
+h1{
+    color: black;
+
+}
+h2{
+    color: black;
+    padding: 20px;
+    margin: 15px;
+
+}
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+th,td{
+    padding: 10px;
+
+}
+th{
+    text-align: center;
+   
+}
+
+button{
+    background-color: olivedrab;
+    color: white;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: lawngreen;
+}
+label{
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: ·0d47a1;
+   font-size: 15px;
+
+    
+}
+p{
+    color: darkblue;
+    border: midnightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+.Formulario{
+    width: 320px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid ·69a7e2;
+    border-radius: 12px;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+    background-color: beige;
+
+}
+.Formulario input, Formulario Button{
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+   
+
+
+
